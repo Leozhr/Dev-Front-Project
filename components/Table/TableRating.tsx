@@ -14,9 +14,10 @@ export function TableRating({ rating }: TableRatingProps) {
           src="/star.svg"
           key={index}
           alt="rating"
-          width={15}
-          height={15}
-          className={`${index < rating ? 'opacity-100' : 'opacity-50'} inline-block`}
+          width={0}
+          height={0}
+          sizes="15px"
+          className={`${index < rating ? 'opacity-100' : 'opacity-50'} inline-block w-[15px] h-auto`}
         />
       ))}
     </div>
