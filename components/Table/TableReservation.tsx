@@ -15,7 +15,7 @@ export function TableReservation({
 
   return (
     <div className="mt-2 md:mt-0 md:px-4 md:col-start-2 md:col-end-3">
-      <h1 className="text-xs md:text-[#6B7280] md:text-sm">
+      <h1 className="text-xs md:text-ui-gray-500 md:text-sm">
         {formatDate(startDate)} - {formatDate(endDate)}
       </h1>
     </div>
