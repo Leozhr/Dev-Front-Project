@@ -5,7 +5,7 @@ interface Car {
   name: string
   image: string
   reservation: string
-  status: string
+  status: boolean
   rating: number
 }
 
