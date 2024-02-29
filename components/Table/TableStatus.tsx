@@ -1,7 +1,9 @@
 import Image from 'next/image'
 
+type TableStatus = 'available' | 'unavailable'
+
 interface TableStatusProps {
-  status: 'available' | 'unavailable'
+  status: TableStatus
 }
 
 export function TableStatus({ status }: TableStatusProps) {

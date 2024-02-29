@@ -11,7 +11,7 @@ export default function Home() {
             <Table.Car text="Mini Cooper 2020" src="/car-mini-cooper.png" />
             <Table.Reservation
               startDate={new Date('2024-07-06')}
-              endDate={new Date('2024-12-22')}
+              endDate={new Date('2024-07-12')}
             />
             <Table.Status status="available" />
             <Table.Rating rating={5} />

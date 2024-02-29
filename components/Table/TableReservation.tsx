@@ -14,10 +14,13 @@ export function TableReservation({
   }
 
   return (
-    <div className="mt-2 md:mt-0 md:px-4 md:col-start-2 md:col-end-3">
-      <h1 className="text-xs md:text-ui-gray-500 md:text-sm">
+    <div className="md:px-4 md:col-start-2 md:col-end-3">
+      <span className="hidden md:block text-xs text-ui-gray-500 md:text-sm">
         {formatDate(startDate)} - {formatDate(endDate)}
-      </h1>
+      </span>
+      <span className="text-xs text-ui-gray-500 md:hidden md:absolute">
+        Next reservation: {formatDate(startDate)}
+      </span>
     </div>
   )
 }
