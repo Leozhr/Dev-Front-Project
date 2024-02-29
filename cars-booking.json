@@ -1,0 +1,46 @@
+{
+  "car": [
+    {
+      "name": "Mini Cooper 2020",
+      "image": "/car-mini-cooper.png",
+      "reservation": "2024-07-11",
+      "status": true,
+      "rating": 5
+    },
+    {
+      "name": "Ford Mustang 2022",
+      "image": "/car-ford-mustang.png",
+      "reservation": "2024-04-08",
+      "status": true,
+      "rating": 4
+    },
+    {
+      "name": "Chevrolet Camaro 2023",
+      "image": "/car-chevrolet-camaro.png",
+      "reservation": "2024-07-13",
+      "status": false,
+      "rating": 5
+    },
+    {
+      "name": "Audi A3 2023",
+      "image": "/car-audi-a3.png",
+      "reservation": "2024-10-14",
+      "status": true,
+      "rating": 5
+    },
+    {
+      "name": "BMW M3 2022",
+      "image": "/car-bmw-m3.png",
+      "reservation": "2024-05-23",
+      "status": false,
+      "rating": 3
+    },
+    {
+      "name": "Mercedes-Benz 2023",
+      "image": "/car-mercedes-benz.png",
+      "reservation": "2024-08-10",
+      "status": true,
+      "rating": 4
+    }
+  ]
+}

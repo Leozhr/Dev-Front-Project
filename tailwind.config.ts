@@ -19,7 +19,7 @@ const config: Config = {
         'ui-green-600': '#057A55',
         'ui-green-100': '#DEF7EC',
         'ui-red-600': '#540303',
-        'ui-red-100': 'ui-red-100',
+        'ui-red-100': '#F7DEDE',
       },
     },
   },
