@@ -7,7 +7,7 @@ interface TableCarProps {
 
 export function TableCar({ text, src }: TableCarProps) {
   return (
-    <div className="md:px-4 md:flex md:gap-2 md:items-center md:col-start-1 md:col-end-2">
+    <div className="md:col-start-1 md:col-end-2 md:flex md:items-center md:gap-2 md:px-4">
       <Image
         src={src}
         alt="car"

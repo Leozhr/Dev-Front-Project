@@ -4,7 +4,7 @@ export default function Home() {
   const listNumber = [1, 2, 3, 4, 5]
 
   return (
-    <div className="pt-[60px] md:pt-0 md:h-screen md:w-full md:flex md:items-center md:justify-center">
+    <div className="pt-[60px] md:flex md:h-screen md:w-full md:items-center md:justify-center md:pt-0">
       <Table.Root>
         {listNumber.map((number) => (
           <Table.Item key={number}>

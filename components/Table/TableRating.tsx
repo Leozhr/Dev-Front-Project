@@ -8,7 +8,7 @@ export function TableRating({ rating }: TableRatingProps) {
   const maxRating = 5
 
   return (
-    <div className="mt-[12px] md:mt-0 md:px-4 md:flex md:gap-1 md:col-start-4 md:col-end-5">
+    <div className="mt-[12px] md:col-start-4 md:col-end-5 md:mt-0 md:flex md:gap-1 md:px-4">
       {Array.from({ length: maxRating }).map((_item, index) => (
         <Image
           src="/star.svg"
@@ -17,7 +17,7 @@ export function TableRating({ rating }: TableRatingProps) {
           width={0}
           height={0}
           sizes="15px"
-          className={`${index < rating ? 'opacity-100' : 'opacity-50'} inline-block w-[15px] h-auto`}
+          className={`${index < rating ? 'opacity-100' : 'opacity-50'} inline-block h-auto w-[15px]`}
         />
       ))}
     </div>
