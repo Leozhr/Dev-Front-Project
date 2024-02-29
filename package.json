@@ -6,13 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fix": "eslint --fix"
   },
   "dependencies": {
+    "date-fns": "^3.3.1",
     "git-flow": "^0.2.0",
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-responsive": "^9.0.2"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
@@ -23,6 +26,8 @@
     "eslint": "^8.57.0",
     "eslint-config-next": "14.1.0",
     "postcss": "^8",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }
