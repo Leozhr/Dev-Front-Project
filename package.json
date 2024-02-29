@@ -6,13 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fix": "eslint --fix"
   },
   "dependencies": {
+    "date-fns": "^3.3.1",
     "git-flow": "^0.2.0",
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-responsive": "^9.0.2"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
